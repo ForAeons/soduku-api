@@ -34,7 +34,7 @@ func GeneratePuzzle(size int, difficulty string) ([][]string, error) {
 	for r, row := range puzzle {
 		for c := range row {
 			if rand.Float64() < threshold {
-				puzzle[r][c] = "."
+				puzzle[r][c] = ""
 			}
 		}
 	}

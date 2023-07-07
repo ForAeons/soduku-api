@@ -15,7 +15,7 @@ const (
 )
 
 type SodukuParams struct {
-	Board [][]string `json:"board"`
+	Board [][]string `json:"puzzle"`
 }
 
 func (s *SodukuParams) ValidateParams() error {
